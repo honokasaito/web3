@@ -1,0 +1,57 @@
+{
+  "name": "0x.js Sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "0x.js",
+    "ethereum",
+    "web3",
+    "blockchain"
+  ],
+  "homepage": "https://codesandbox.io/s/react-ts",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "0x.js": "^0.32.3",
+    "@0xproject/connect": "^0.5.8",
+    "@0xproject/subproviders": "0.4.2",
+    "@0xproject/utils": "0.3.0",
+    "@0xproject/web3-wrapper": "0.1.10",
+    "@types/lodash": "4.14.102",
+    "lodash": "4.17.5",
+    "react": "16.2.0",
+    "react-dom": "16.2.0",
+    "types-bn": "0.0.1",
+    "web3": "^0.20.4",
+    "web3-provider-engine": "^13.6.3",
+    "react-scripts-ts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@types/jest": "22.1.2",
+    "@types/lodash": "4.14.102",
+    "@types/lodash/array": "latest",
+    "@types/lodash/collection": "latest",
+    "@types/lodash/common": "latest",
+    "@types/lodash/date": "latest",
+    "@types/lodash/function": "latest",
+    "@types/lodash/lang": "latest",
+    "@types/lodash/math": "latest",
+    "@types/lodash/number": "latest",
+    "@types/lodash/object": "latest",
+    "@types/lodash/seq": "latest",
+    "@types/lodash/string": "latest",
+    "@types/lodash/util": "latest",
+    "@types/node": "9.4.5",
+    "@types/react": "16.0.36",
+    "@types/react-dom": "16.0.3",
+    "@types/react-dom/node-stream": "latest",
+    "@types/react-dom/server": "latest",
+    "@types/react-dom/test-utils": "latest",
+    "@types/web3-provider-engine": "14.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
